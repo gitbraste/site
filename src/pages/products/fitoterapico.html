@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <html lang="pt-br">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>
+        Fitoterapico - Brasterápica Industria Farmacêutica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="/src/assets/favicon_io/favicon.ico" type="image/x-icon" />
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="font-body">
+    <header class="h-16 flex transition-opacity">
+        <nav class="px-4 w-full max-w-5xl mx-auto flex justify-between items-center xl:px-0">
+            <a href="/src/"><img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' /></a>
+            <div class='h-full pt-5 text-blue text-sm lg:text-base hidden md:flex'>
+                <div class="aboutMenu cursor-pointer h-full flex flex-col justify-between items-center relative">
+                    <div class="flex items-center justify-center gap-2">
+                        <span>Sobre</span>
+                        <img class="aboutMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
+                    </div>
+                    <div class="aboutDropdown invisible opacity-0">
+                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                        <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
+                            <a href="/src/pages/about/quem-somos.html" class="hover:brightness-200">Quem
+                                somos</a>
+                            <a href="/src/pages/about/lgpd.html" class="hover:brightness-200">LGPD</a>
+                            <!-- <a href="/src/quem-somos.html" class="hover:brightness-200">Novos Negócios</a>
+                            <a href="/src/quem-somos.html" class="hover:brightness-200">Código de Ética</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="productsMenu cursor-pointer h-full flex flex-col justify-between items-center relative">
+                    <div class="flex items-center justify-center gap-2">
+                        <span>Produtos</span>
+                        <img class="productsMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
+                    </div>
+                    <div class="productsDropdown invisible opacity-0">
+                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                        <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
+                            <a href="/src/pages/products/farma.html" class="hover:brightness-200">Farma</a>
+                            <a href="/src/pages/products/fitoterapico.html"
+                                class="hover:brightness-200">Fitoterápicos</a>
+                            <a href="/src/pages/products/generico.html" class="hover:brightness-200">Genéricos</a>
+                            <a href="/src/pages/products/mip.html" class="hover:brightness-200">MIP</a>
+                            <a href="/src/pages/products/suplemento-alimentar.html"
+                                class="hover:brightness-200">Suplementos</a>
+                            <a href="/src/pages/products/todos-produtos.html" class="hover:brightness-200">Todos os
+                                Produtos</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactMenu cursor-pointer h-full flex flex-col justify-between items-center relative">
+                    <div class="flex items-center justify-center gap-2">
+                        <span>Contato</span>
+                        <img class="contactMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
+                    </div>
+                    <div class="contactDropdown invisible opacity-0">
+                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                        <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
+                            <a href="/src/pages/contact/trabalhe-conosco.html" class="hover:brightness-200">Trabalhe
+                                Conosco</a>
+                            <!-- <a href="/src/pages/products/farma.html" class="hover:brightness-200">Laudos</a> -->
+                            <a href="/src/pages/contact/sac.html" class="hover:brightness-200">SAC</a>
+                        </div>
+                    </div>
+                </div>
+                <figure class="flex gap-5 ml-16">
+                    <a href="https://www.facebook.com/Brasterapica.Farmaceutica/" target="_blank"><img
+                            class="w-5 lg:w-7" src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                    <a href="https://www.instagram.com/brasterapica/" target="_blank"><img class="w-5 lg:w-7"
+                            src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+                </figure>
+            </div>
+            <div class="md:hidden">
+                <button class="menuButton"><img class="w-6" src="/src/assets/icons/menu.png" alt="" /></button>
+            </div>
+        </nav>
+        <div class="menu flex z-10 fixed inset-0 w-full h-screen hidden md:hidden">
+            <div class="backdrop w-full z-10 fixed inset-0 bg-black opacity-50"></div>
+            <nav class="sideMenu w-2/3 fixed bottom-0 top-0 right-0 z-30 bg-white shadow-2xl md:hidden">
+                <div class="flex justify-between border-b-2 border-gray p-6">
+                    <figure class="flex gap-5">
+                        <a href="https://www.facebook.com/Brasterapica.Farmaceutica/" target="_blank"><img class="w-6"
+                                src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                        <a href="https://www.instagram.com/brasterapica" target="_blank"><img class="w-6"
+                                src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+                    </figure>
+                    <button class="CloseButton ">
+                        <img class="w-6" src="/src/assets/icons/closeIcon.png" alt="Fechar" />
+                    </button>
+                </div>
+                <div class="w-full lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                <div class="flex flex-col gap-3 p-6 text-black600">
+                    <div>
+                        <div class="flex items-center gap-4">
+                            <img class="w-4 h-4" src="/src/assets/icons/aboutIcon.svg" alt="Home" />
+                            <p class="font-semibold">Sobre</p>
+                        </div>
+                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
+                            <li><a href="/src/pages/about/quem-somos.html">Quem somos</a></li>
+                            <li><a href="/src/pages/about/lgpd.html">LGPD</a></li>
+                            <!-- <li><a href="/src/pages/about/quem-somos.html">Novos Negócios</a></li>
+                            <li><a href="/src/pages/about/quem-somos.html">Código de Ética</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <div class="flex items-center gap-4">
+                            <img class="w-4 h-4" src="/src/assets/icons/productsIcon.png" alt="Home" />
+                            <a href="/src/" class="font-semibold">Produtos</a>
+                        </div>
+                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
+                            <li><a href="/src/pages/products/farma.html">Farma</a></li>
+                            <li><a href="/src/pages/products/fitoterapico.html">Fitoterápicos</a></li>
+                            <li><a href="/src/pages/products/generico.html">Genéricos</a></li>
+                            <li><a href="/src/pages/products/mip.html">MIP</a></li>
+                            <li><a href="/src/pages/products/suplemento-alimentar.html">Suplementos</a>
+                            </li>
+                            <li><a href="/src/pages/products/todos-produtos.html">Todos os produtos</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <div class="flex items-center gap-4">
+                            <img class="w-4 h-4" src="/src/assets/icons/contactICon.png" alt="Home" />
+                            <a href="/src/" class="font-semibold">Contato</a>
+                        </div>
+                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
+                            <li><a href="/src/pages/contact/trabalhe-conosco.html">Trabalhe conosco</a>
+                            </li>
+                            <!-- <li><a href="/src/pages/contact/">Laudos</a></li> -->
+                            <li><a href="/src/pages/contact/sac.html">SAC</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="p-5 py-10 md:py-20 bg-cyan400">
+        <div class="max-w-5xl m-auto">
+            <h1 class="text-white text-2xl md:text-4xl mb-2">Produtos Fitoterápicos</h1>
+            <div class="w-24 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+        </div>
+    </section>
+    <article class="p-5 pb-0 md:px-0">
+        <section class="max-w-5xl md:py-10 m-auto">
+            <div class="flex flex-col gap-8">
+                <p>Produzidos totalmente a partir do extrato de plantas e vegetais medicinais, os fitoterápicos têm sua
+                    segurança e eficácia
+                    asseguradas uma vez que passam por todo o processo de controle e estudos clínicos. A fitoterapia é
+                    reconhecida pela OMS
+                    (Organização Mundial da Saúde) e cada vez mais procurada como tratamento alternativo.
+                </p>
+                <p>
+                    Podendo precisar ou não de receita médica, sempre procure orientação média e utilize de acordo com
+                    as
+                    orientações.
+                </p>
+            </div>
+            <p class="text-blue mt-10">Clique sobre a imagem e obtenha informações importantes sobre indicações e
+                consumo.</p>
+            <div class="mt-8 mb-16 flex flex-col gap-8 items-center text-blue200 md:flex-row md:flex-wrap">
+                <figure
+                    class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
+                    <div>
+                        <h3 class="font-bold mb-4">Phitóss 100ml</h3>
+                    </div>
+                    <div class="flex justify-center">
+                        <img class="w-52 h-52" src="/src/assets/images/products/Phitoss.png" alt="Phitoss" />
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="/src/assets/icons/lungs.png" alt="Icone Pulmão" />
+                        <p>Xarópe</p>
+                    </div>
+                </figure>
+                <figure class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
+                    <div>
+                        <h3 class="font-bold mb-4">Phitóss Kids 100ml</h3>
+                    </div>
+                    <div class="flex justify-center">
+                        <img class="w-52 h-52" src="/src/assets/images/products/Phitoss_kids.png" alt="Phitoss kids" />
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="/src/assets/icons/lungs.png" alt="Icone Pulmão" />
+                        <p>Xarópe</p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+    </article>
+    <footer class="pt-10 pb-4 px-4">
+        <div class="max-w-5xl m-auto flex justify-between text-sm gap-2">
+            <div class="flex-col hidden md:flex">
+                <img class="w-52 basis-1/4" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+                <p class="basis-1/4 mt-5">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
+                <figure class="flex items-end gap-5 basis-1/2">
+                    <a href="https://www.facebook.com/Brasterapica.Farmaceutica/" target="_blank"><img
+                            class="w-5 lg:w-7" src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                    <a href="https://www.instagram.com/brasterapica/" target="_blank"><img class="w-5 lg:w-7"
+                            src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+                </figure>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h3 class="mb-3 font-medium">Empresa</h3>
+                <a href="/src/pages/about/quem-somos.html" class="hover:text-blue" target="_blank">Quem somos</a>
+                <a href="/src/pages/about/lgpd.html" class="hover:text-blue" target="_blank">LGPD</a>
+                <!-- <a href="/src/pages/products/farma.html" class="hover:text-blue" target="_blank">Código de Ética</a> -->
+            </div>
+            <div class="flex flex-col gap-3">
+                <h3 class="mb-3 font-medium">Produtos</h3>
+                <a href="/src/pages/products/farma.html" class="hover:text-blue" target="_blank">Farma</a>
+                <a href="/src/pages/products/fitoterapico.html" class="hover:text-blue"
+                    target="_blank">Fitoterápicos</a>
+                <a href="/src/pages/products/generico.html" class="hover:text-blue" target="_blank">Genéricos</a>
+                <a href="/src/pages/products/mip.html" class="hover:text-blue" target="_blank">MIP</a>
+                <a href="/src/pages/products/suplemento-alimentar.html" class="hover:text-blue"
+                    target="_blank">Suplementos</a>
+                <a href="/src/pages/products/todos-produtos.html" class="hover:text-blue" target="_blank">Todos os
+                    Produtos</a>
+            </div>
+            <div class="flex flex-col gap-3">
+                <h3 class="mb-3 font-medium">Contato</h3>
+                <a href="/src/pages/contact/trabalhe-conosco.html" class="hover:text-blue" target="_blank">Trabalhe
+                    Conosco</a>
+                <!-- <a href="/src/pages/products/suplemento-alimentar.html" class="hover:text-blue" target="_blank">Laudos</a> -->
+                <a href="/src/pages/contact/sac.html" class="hover:text-blue" target="_blank">SAC</a>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center my-10 gap-4 md:hidden">
+            <img class="w-52 " src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+            <p class="text-sm">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
+            <figure class="flex items-end gap-5">
+                <a href="https://www.facebook.com/" target="_blank"><img class="w-7"
+                        src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="w-7"
+                        src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+            </figure>
+        </div>
+        <div class="mt-14">
+            <p class="text-xs text-center">Copyright 2024© - Todos os Direitos Reservados</p>
+        </div>
+    </footer>
+    <script src="/src/js/menu.js"></script>
+    <script src="/src/js/dropdown.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/src/js/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                fade: true,
+                arrows: false
+            });
+        });
+    </script>
+</body>
+
+</html>
