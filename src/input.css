@@ -22,4 +22,8 @@
     .-rotateY-180 {
         transform: rotateY(-180deg);
     }
+
+    .opacity-bg {
+        background-color: rgba(0,0,0,0.4);
+    }
 }

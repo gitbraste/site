@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/favicon_io/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/src/assets/favicon_io/favicon.ico" type="image/x-icon" />
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/src/js/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="/src/js/slick/slick-theme.css" />
@@ -31,49 +31,21 @@
                         <img class="aboutMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
                     </div>
                     <div class="aboutDropdown invisible opacity-0">
-                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                        <div class="w-36 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
                         <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
-                            <a href="/src/pages/about/quem-somos.html" class="hover:brightness-200">Quem
-                                somos</a>
+                            <a href="/src/pages/about/quem-somos.html" class="hover:brightness-200">Quem somos</a>
                             <a href="/src/pages/about/lgpd.html" class="hover:brightness-200">LGPD</a>
-                            <!-- <a href="/src/quem-somos.html" class="hover:brightness-200">Novos Negócios</a>
-                            <a href="/src/quem-somos.html" class="hover:brightness-200">Código de Ética</a> -->
                         </div>
                     </div>
                 </div>
-                <div class="productsMenu cursor-pointer h-full flex flex-col justify-between items-center relative">
+                <div class="w-36 cursor-pointer h-full flex flex-col justify-between items-center relative">
                     <div class="flex items-center justify-center gap-2">
-                        <span>Produtos</span>
-                        <img class="productsMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
-                    </div>
-                    <div class="productsDropdown invisible opacity-0">
-                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
-                        <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
-                            <a href="/src/pages/products/farma.html" class="hover:brightness-200">Farma</a>
-                            <a href="/src/pages/products/fitoterapico.html"
-                                class="hover:brightness-200">Fitoterápicos</a>
-                            <a href="/src/pages/products/generico.html" class="hover:brightness-200">Genéricos</a>
-                            <a href="/src/pages/products/mip.html" class="hover:brightness-200">MIP</a>
-                            <a href="/src/pages/products/suplemento-alimentar.html"
-                                class="hover:brightness-200">Suplementos</a>
-                            <a href="/src/pages/products/todos-produtos.html" class="hover:brightness-200">Todos os
-                                Produtos</a>
-                        </div>
+                        <a href="/src/pages/products/todos-produtos.html">Produtos</a>
                     </div>
                 </div>
-                <div class="contactMenu cursor-pointer h-full flex flex-col justify-between items-center relative">
+                <div class="w-36 cursor-pointer h-full flex flex-col justify-between items-center relative">
                     <div class="flex items-center justify-center gap-2">
-                        <span>Contato</span>
-                        <img class="contactMenuArrow w-3 h-3" src="/src/assets/icons/arrowIcon.png" alt="dropdown" />
-                    </div>
-                    <div class="contactDropdown invisible opacity-0">
-                        <div class="w-28 lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
-                        <div class="w-full absolute flex flex-col p-3 text-sm lg:text-base bg-white z-30 top-11">
-                            <a href="/src/pages/contact/trabalhe-conosco.html" class="hover:brightness-200">Trabalhe
-                                Conosco</a>
-                            <!-- <a href="/src/pages/products/farma.html" class="hover:brightness-200">Laudos</a> -->
-                            <a href="/src/pages/contact/sac.html" class="hover:brightness-200">SAC</a>
-                        </div>
+                        <a href="/src/pages/contact/contact.html">Contato</a>
                     </div>
                 </div>
                 <figure class="flex gap-5 ml-16">
@@ -101,44 +73,29 @@
                         <img class="w-6" src="/src/assets/icons/closeIcon.png" alt="Fechar" />
                     </button>
                 </div>
-                <div class="w-full lg:w-40 h-1 bg-gradient-to-r from-cyan to-blue200"></div>
+                <div class="w-full h-1 bg-gradient-to-r from-cyan to-blue200"></div>
                 <div class="flex flex-col gap-3 p-6 text-black600">
                     <div>
                         <div class="flex items-center gap-4">
                             <img class="w-4 h-4" src="/src/assets/icons/aboutIcon.svg" alt="Home" />
                             <p class="font-semibold">Sobre</p>
                         </div>
-                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
+                        <ul class="ml-9 mt-3 flex flex-col gap-3">
                             <li><a href="/src/pages/about/quem-somos.html">Quem somos</a></li>
                             <li><a href="/src/pages/about/lgpd.html">LGPD</a></li>
-                            <!-- <li><a href="/src/pages/about/quem-somos.html">Novos Negócios</a></li>
-                            <li><a href="/src/pages/about/quem-somos.html">Código de Ética</a></li> -->
                         </ul>
                     </div>
-                    <div class="dropdown">
+                    <div>
                         <div class="flex items-center gap-4">
                             <img class="w-4 h-4" src="/src/assets/icons/productsIcon.png" alt="Home" />
-                            <a href="/src/" class="font-semibold">Produtos</a>
+                            <a href="/src/pages/products/todos-produtos.html" class="font-semibold">Produtos</a>
                         </div>
-                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
-                            <li><a href="/src/pages/products/farma.html">Farma</a></li>
-                            <li><a href="/src/pages/products/fitoterapico.html">Fitoterápicos</a></li>
-                            <li><a href="/src/pages/products/generico.html">Genéricos</a></li>
-                            <li><a href="/src/pages/products/mip.html">MIP</a></li>
-                            <li><a href="/src/pages/products/suplemento-alimentar.html">Suplementos</a></li>
-                            <li><a href="/src/pages/products/todos-produtos.html">Todos os produtos</a></li>
-                        </ul>
                     </div>
-                    <div class="dropdown">
+                    <div>
                         <div class="flex items-center gap-4">
                             <img class="w-4 h-4" src="/src/assets/icons/contactICon.png" alt="Home" />
-                            <a href="/src/" class="font-semibold">Contato</a>
+                            <a href="/src/pages/contact/contact.html" class="font-semibold">Contato</a>
                         </div>
-                        <ul class=" ml-9 mt-3 flex flex-col gap-3">
-                            <li><a href="/src/pages/contact/trabalhe-conosco.html">Trabalhe conosco</a></li>
-                            <!-- <li><a href="/src/pages/contact/">Laudos</a></li> -->
-                            <li><a href="/src/pages/contact/sac.html">SAC</a></li>
-                        </ul>
                     </div>
                 </div>
             </nav>
@@ -176,12 +133,12 @@
                     <source src="/src/assets/videos/gripalce ac_out2023.mov" type="video/mp4">
                         Seu navegador não suporta essa mídia.
                     </video>
-                    <h3 class="my-3 text-xl font-medium">GripalcêAC </h3>
+                    <h3 class="my-3 text-xl font-medium">Gripalcê AC </h3>
                     <p class="text-sm text-black600 pr-5">
                         O medicamento atua como expectorante, promovendo a eliminação do muco
                         e aliviando os sintomas da tosse e da congestão.</p>
                 </div>
-                <!-- <div class="px-2">
+                <div class="px-2">
                     <video 
                         width="1920" 
                         height="1080" 
@@ -194,10 +151,9 @@
                             Seu navegador não suporta essa mídia.
                     </video>
                     <h3 class="my-3 text-xl font-medium">Phitóss </h3>
-                    <p class="text-sm text-black600 pr-5">O medicamento atua como expectorante, promovendo a eliminação do muco
-                        e aliviando os sintomas da tosse e da congestão.</p>
-                </div> -->
-                <!-- <div class="px-2">
+                    <p class="text-sm text-black600 pr-5">Xarope fitoterápico com tudo que você precisa: extrato seco de Hedera Heliz, eficácia comprovada e ação expectorante e relaxante.</p>
+                </div>
+                <div class="px-2">
                     <video 
                         width="1920" 
                         height="1080" 
@@ -212,7 +168,7 @@
                     <h3 class="my-3 text-xl font-medium">Malacal </h3>
                     <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
                         para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
-                </div> -->
+                </div>
                 <div class="px-2">
                     <video 
                         width="1920" 
@@ -226,8 +182,7 @@
                             Seu navegador não suporta essa mídia.
                     </video>
                     <h3 class="my-3 text-xl font-medium">Fígaro </h3>
-                    <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
-                        para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
+                    <p class="text-sm text-black600 pr-5">O suplemento alimentar que ajuda no metabolismo da gordura, remove aquela que está infiltrada e ainda impede o seu acúmulo, além de ajudar na remoção de outras toxinas.</p>
                 </div>
                 <div class="px-2">
                     <video 
@@ -242,8 +197,7 @@
                             Seu navegador não suporta essa mídia.
                     </video>
                     <h3 class="my-3 text-xl font-medium">Multivit Kids </h3>
-                    <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
-                        para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
+                    <p class="text-sm text-black600 pr-5">Com sua linha de suplementos multivitamínicos, Multivit Kids tem dosagem especial, o que garante o equilibrio nutricional diário do organismo, ajudando a suprir as necessidades específicas de cada criança. </p>
                 </div>
                 <div class="px-2">
                     <video 
@@ -258,13 +212,12 @@
                             Seu navegador não suporta essa mídia.
                     </video>
                     <h3 class="my-3 text-xl font-medium">Phitóss Kids </h3>
-                    <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
-                        para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
+                    <p class="text-sm text-black600 pr-5">Phitóss Kids é elaborado especialmente para as crianças, com facilidade na administração (seringa dosadora) e sabor framboesa.</p>
                 </div>
                 <div class="px-2">
                     <div class="bg-black">
                         <video 
-                            class="h-52 w-96 md:h-44 md:w-80"
+                            class="h-32 w-96 lg:h-44 lg:w-80"
                             width="1920" 
                             height="1080" 
                             controls
@@ -276,9 +229,8 @@
                                 Seu navegador não suporta essa mídia.
                         </video>
                     </div>
-                    <h3 class="my-3 text-xl font-medium">Zilaricina</h3>
-                    <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
-                        para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
+                    <h3 class="my-3 text-xl font-medium">Sonin</h3>
+                    <p class="text-sm text-black600 pr-5">O Sonin é um suplemento alimentar fonte de melatonina, que ajuda a regular a produção do hormônio Melatonina, e melhora a qualidade do sono, promovendo noites revitalizadoras. </p>
                 </div>
                 <div class="px-2">
                     <video 
@@ -293,8 +245,7 @@
                             Seu navegador não suporta essa mídia.
                     </video>
                     <h3 class="my-3 text-xl font-medium">Zilaricina</h3>
-                    <p class="text-sm text-black600 pr-5">Para quem tem a deficiência de cálcio na alimentaçao e não tem tempo
-                        para o banho de sol, tem Malacal, o suplemento vitaminico. </p>
+                    <p class="text-sm text-black600 pr-5">Zilaricina ajuda na regulação do ácido úrico no organismo, auxiliando sua eliminação em pacientes com funções renais normais, agindo diretamente no mecanismo de produção dessa substância.</p>
                 </div>
             </figure>
         </div>
@@ -303,40 +254,40 @@
         <div class="max-w-5xl m-auto">
             <h2 class="text-2xl font-medium md:text-3xl">Saiba mais sobre nós</h2>
             <div class="grid grid-cols-2 gap-5 font-bold my-14 md:grid-cols-4 md:text-xl">
-                <a href="/src/pages/contact/trabalhe-conosco.html" target="_blank">
-                    <div class="flex flex-col items-center">
-                        <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/trabalheConoscoIcon.png' alt='' />
-                        <p>Trabalhe</p>
-                        <p>conosco</p>
-                    </div>
-                </a>
-                <a href="/src/pages/contact/sac.html" target="_blank">
-                    <div class="flex flex-col items-center">
-                        <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/sacLogo.png' alt='' />
-                        <p>SAC</p>
-                    </div>
-                </a>
-                <a href="/src/pages/about/quem-somos.html" target="_blank">
+                <a href="/src/pages/about/quem-somos.html">
                     <div class="flex flex-col items-center">
                         <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/brasterapicaLogo.png' alt='' />
                         <p>Sobre</p>
                         <p>a Brasterápica </p>
                     </div>
                 </a>
-                <a href="/src/pages/products/todos-produtos.html" target="_blank">
+                <a href="/src/pages/products/todos-produtos.html">
                     <div class="flex flex-col items-center">
                         <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/remediosLogo.png' alt='' />
                         <p>Conheça</p>
                         <p>nossos produtos</p>
                     </div>
                 </a>
+                <a href="/src/pages/about/lgpd.html">
+                    <div class="flex flex-col items-center">
+                        <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/trabalheConoscoIcon.png' alt='' />
+                        <p>LGPD</p>
+                    </div>
+                </a>
+                <a href="/src/pages/contact/contact.html">
+                    <div class="flex flex-col items-center">
+                        <img class="w-10 mb-5 md:w-16" src='/src/assets/icons/sacLogo.png' alt='' />
+                        <p>Entre</p>
+                        <p>em contato</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
     <footer class="pt-10 pb-4 px-4">
-        <div class="max-w-5xl m-auto flex justify-between text-sm gap-2">
+        <div class="max-w-5xl h-32 m-auto flex justify-between text-sm gap-2 md:h-52">
             <div class="flex-col hidden md:flex">
-                <img class="w-52 basis-1/4" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+                <img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
                 <p class="basis-1/4 mt-5">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
                 <figure class="flex items-end gap-5 basis-1/2">
                     <a href="https://www.facebook.com/Brasterapica.Farmaceutica/" target="_blank"><img
@@ -347,32 +298,21 @@
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Empresa</h3>
-                <a href="/src/pages/about/quem-somos.html" class="hover:text-blue" target="_blank">Quem somos</a>
-                <a href="/src/pages/about/lgpd.html" class="hover:text-blue" target="_blank">LGPD</a>
-                <!-- <a href="/src/pages/products/farma.html" class="hover:text-blue" target="_blank">Código de Ética</a> -->
+                <a href="/src/pages/about/quem-somos.html" class="hover:text-blue">Quem somos</a>
+                <a href="/src/pages/about/lgpd.html" class="hover:text-blue">LGPD</a>
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Produtos</h3>
-                <a href="/src/pages/products/farma.html" class="hover:text-blue" target="_blank">Farma</a>
-                <a href="/src/pages/products/fitoterapico.html" class="hover:text-blue"
-                    target="_blank">Fitoterápicos</a>
-                <a href="/src/pages/products/generico.html" class="hover:text-blue" target="_blank">Genéricos</a>
-                <a href="/src/pages/products/mip.html" class="hover:text-blue" target="_blank">MIP</a>
-                <a href="/src/pages/products/suplemento-alimentar.html" class="hover:text-blue"
-                    target="_blank">Suplementos</a>
-                <a href="/src/pages/products/todos-produtos.html" class="hover:text-blue" target="_blank">Todos os
+                <a href="/src/pages/products/todos-produtos.html" class="hover:text-blue">Todos os
                     Produtos</a>
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Contato</h3>
-                <a href="/src/pages/contact/trabalhe-conosco.html" class="hover:text-blue" target="_blank">Trabalhe
-                    Conosco</a>
-                <!-- <a href="/src/pages/products/suplemento-alimentar.html" class="hover:text-blue" target="_blank">Laudos</a> -->
-                <a href="/src/pages/contact/sac.html" class="hover:text-blue" target="_blank">SAC</a>
+                <a href="/src/pages/contact/contact.html" class="hover:text-blue">Nossos contatos</a>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center my-10 gap-4 md:hidden">
-            <img class="w-52 " src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+            <img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
             <p class="text-sm">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
             <figure class="flex items-end gap-5">
                 <a href="https://www.facebook.com/" target="_blank"><img class="w-7"
@@ -422,14 +362,16 @@
                         breakpoint: 600,
                         settings: {
                             slidesToShow: 2,
-                            slidesToScroll: 2
+                            slidesToScroll: 2,
+                            arrows: false
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
                             slidesToShow: 1.5,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            arrows: false
                         }
                     }
                 ]
