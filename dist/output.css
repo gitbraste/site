@@ -2031,9 +2031,19 @@ html {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 59 153 / var(--tw-bg-opacity));
+}
+
 .bg-blue200 {
   --tw-bg-opacity: 1;
   background-color: rgb(0 51 153 / var(--tw-bg-opacity));
+}
+
+.bg-blue300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(25 155 226 / var(--tw-bg-opacity));
 }
 
 .bg-cyan400 {
@@ -2244,6 +2254,10 @@ html {
 
 .pt-10 {
   padding-top: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .pt-5 {
@@ -2826,6 +2840,11 @@ html {
   color: rgb(2 59 153 / var(--tw-text-opacity));
 }
 
+.hover\:text-cyan:hover {
+  --tw-text-opacity: 1;
+  color: rgb(8 212 175 / var(--tw-text-opacity));
+}
+
 .hover\:brightness-200:hover {
   --tw-brightness: brightness(2);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -2891,11 +2910,6 @@ html {
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .md\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
   }
 
   .md\:py-20 {

@@ -16,6 +16,9 @@
 </head>
 
 <body class="font-body">
+    <div id="pageLoader" class="fixed z-10 inset-0 bg-white flex justify-center items-center">
+        <img src="/src/assets/gifs/page-loader.gif" alt="Loading">
+    </div>
     <header class="h-16 flex transition-opacity">
         <nav class="px-4 w-full max-w-5xl mx-auto flex justify-between items-center xl:px-0">
             <a href="/"><img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' /></a>
@@ -103,7 +106,8 @@
         </div>
     </section>
     <article class="p-5 pb-0 md:px-0">
-        <section class="max-w-5xl md:py-10 m-auto">
+        <section class="max-w-5xl m-auto">
+            <p class="text-blue my-10 mb-16">Explore nossas marcas de suplementos e medicamentos.</p>
             <!-- <p class="text-blue mt-10">Clique sobre a imagem e obtenha informações importantes sobre indicações e
                 consumo.</p> -->
             <div class="mt-8 mb-16 flex flex-col gap-8 items-center text-blue200 md:flex-row md:flex-wrap">
@@ -118,7 +122,7 @@
                         <p>Expectorante Balsâmico e Mucolítico</p>
                     </div>
                 </figure>
-                <figure
+                <!-- <figure
                     class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
                     <h3 class="font-bold mb-4">Captopril</h3>
                     <div class="px-8">
@@ -128,7 +132,7 @@
                         <img class="w-8" src="/src/assets/icons/pills.png" alt="Icone Comprimidos" />
                         <p>Antihipertensivo</p>
                     </div>
-                </figure>
+                </figure> -->
                 <figure
                     class="flex flex-col p-5 justify-between w-80 h-96 border rounded-md border-gray cursor-pointer">
                     <h3 class="font-bold">Cetoconazol</h3>
@@ -219,6 +223,17 @@
                 </figure>
                 <figure
                     class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
+                    <h3 class="font-bold mb-4">Gripalcê Uno</h3>
+                    <div class="px-8">
+                        <img class="w-auto" src="/src/assets/images/products/Logo/Logo-Gripalce-Uno.png" alt="Gripalcê Uno" />
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="/src/assets/icons/pills-1.png" alt="Icone Comprimidos" />
+                        <p>Analgésico e Antitérmico </p>
+                    </div>
+                </figure>
+                <!-- <figure
+                    class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
                     <h3 class="font-bold mb-4">Hevelair</h3>
                     <div class="px-8">
                         <img class="w-auto" src="/src/assets/images/products/Logo/Logo-Hevelair.png" alt="Hevelair" />
@@ -227,7 +242,7 @@
                         <img class="w-8" src="/src/assets/icons/lungs.png" alt="Icone Tosse" />
                         <p>Tratamento sintomático de tosse </p>
                     </div>
-                </figure>
+                </figure> -->
                 <figure
                     class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
                     <h3 class="font-bold mb-4">Malacal</h3>
@@ -244,6 +259,17 @@
                     <h3 class="font-bold mb-4">Multivit</h3>
                     <div class="px-8">
                         <img class="w-auto" src="/src/assets/images/products/Logo/Logo-Multivit.png" alt="Multivit" />
+                    </div>
+                    <div class="flex gap-4 items-center">
+                        <img class="w-8" src="/src/assets/icons/pills-1.png" alt="Icone comprimidos" />
+                        <p>Suplemento Vitamínico-Mineral </p>
+                    </div>
+                </figure>
+                <figure
+                    class="flex flex-col p-5 justify-between gap-2 w-80 h-96 border rounded-md border-gray cursor-pointer">
+                    <h3 class="font-bold mb-4">Multivit Zinco</h3>
+                    <div class="px-8">
+                        <img class="w-auto" src="/src/assets/images/products/Logo/Logo-Multivit-Zinco.png" alt="Multivit Zinco" />
                     </div>
                     <div class="flex gap-4 items-center">
                         <img class="w-8" src="/src/assets/icons/pills-1.png" alt="Icone comprimidos" />
@@ -355,41 +381,41 @@
             </div>
         </section>
     </article>
-    <footer class="pt-10 pb-4 px-4">
+    <footer class="pt-16 pb-4 px-4 bg-blue text-white">
         <div class="max-w-5xl h-32 m-auto flex justify-between text-sm gap-2 md:h-52">
             <div class="flex-col hidden md:flex">
-                <img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+                <img class="w-52" src='/src/assets/images/logo-braste-branco.png' alt='logo Brasterápica' />
                 <p class="basis-1/4 mt-5">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
                 <figure class="flex items-end gap-5 basis-1/2">
                     <a href="https://www.facebook.com/Brasterapica.Farmaceutica/" target="_blank"><img
-                            class="w-5 lg:w-7" src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                            class="w-5 lg:w-7" src="/src/assets/icons/facebook-branco.png" alt="Facebook" /></a>
                     <a href="https://www.instagram.com/brasterapica/" target="_blank"><img class="w-5 lg:w-7"
-                            src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+                            src="/src/assets/icons/instagram-branco.png" alt="Instagram" /></a>
                 </figure>
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Empresa</h3>
-                <a href="/src/pages/about/quem-somos.html" class="hover:text-blue">Quem somos</a>
-                <a href="/src/pages/about/lgpd.html" class="hover:text-blue">LGPD</a>
+                <a href="/src/pages/about/quem-somos.html" class="hover:text-cyan">Quem somos</a>
+                <a href="/src/pages/about/lgpd.html" class="hover:text-cyan">LGPD</a>
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Produtos</h3>
-                <a href="/src/pages/products/todos-produtos.html" class="hover:text-blue">Todos os
+                <a href="/src/pages/products/todos-produtos.html" class="hover:text-cyan">Todos os
                     Produtos</a>
             </div>
             <div class="flex flex-col gap-3">
                 <h3 class="mb-3 font-medium">Contato</h3>
-                <a href="/src/pages/contact/contact.html" class="hover:text-blue">Nossos contatos</a>
+                <a href="/src/pages/contact/contact.html" class="hover:text-cyan">Nossos contatos</a>
             </div>
         </div>
         <div class="flex flex-col justify-center items-center my-10 gap-4 md:hidden">
-            <img class="w-52" src='/src/assets/images/Logo.png' alt='Logo Brasterápica' />
+            <img class="w-52" src='/src/assets/images/logo-braste-branco.png' alt='logo Brasterápica' />
             <p class="text-sm">Rua Olegário Cunha Lobo, 25 Atibaia - SP</p>
             <figure class="flex items-end gap-5">
                 <a href="https://www.facebook.com/" target="_blank"><img class="w-7"
-                        src="/src/assets/icons/facebookIcon.png" alt="Facebook" /></a>
+                        src="/src/assets/icons/facebook-branco.png" alt="Facebook" /></a>
                 <a href="https://www.instagram.com" target="_blank"><img class="w-7"
-                        src="/src/assets/icons/instagramIcon.png" alt="Instagram" /></a>
+                        src="/src/assets/icons/instagram-branco.png" alt="Instagram" /></a>
             </figure>
         </div>
         <div class="mt-14">
@@ -414,6 +440,11 @@
                 fade: true,
                 arrows: false
             });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('#pageLoader').addClass('hidden');
         });
     </script>
 </body>
