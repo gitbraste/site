@@ -7,6 +7,10 @@
         font-family: 'Open Sans';
     }
 
+    p, a, ul, h3 {
+        font-size: 1rem;
+    }
+
     .h-1px { 
         height: 1px;
     }
@@ -25,5 +29,9 @@
 
     .opacity-bg {
         background-color: rgba(0,0,0,0.4);
+    }
+
+    .w-100 {
+        width: 31rem;
     }
 }
