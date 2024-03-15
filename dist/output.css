@@ -699,10 +699,6 @@ p, a, ul, h3 {
   z-index: 30;
 }
 
-.-z-10 {
-  z-index: -10;
-}
-
 .float-right {
   float: right;
 }
@@ -2940,6 +2936,10 @@ p, a, ul, h3 {
     width: 4rem;
   }
 
+  .md\:w-full {
+    width: 100%;
+  }
+
   .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -3001,6 +3001,14 @@ p, a, ul, h3 {
 
   .lg\:w-80 {
     width: 20rem;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-4\/5 {
+    width: 80%;
   }
 
   .lg\:p-0 {
