@@ -3,6 +3,15 @@ module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {},
+    animation: {
+      wiggle: 'slidein 1s ease-in-out',
+    },
+    keyframes: {
+      slidein: {
+        '0%': { top: -500},
+        '100%': { top: 0 },
+      }
+    },
     colors:{
       white: '#ffffff',
       green: '#E2F1BA',

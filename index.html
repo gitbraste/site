@@ -18,8 +18,17 @@
 </head>
 
 <body class="font-body">
-    <div id="pageLoader" class="fixed z-10 inset-0 bg-white flex justify-center items-center">
+    <div id="pageLoader" class="fixed z-20 inset-0 bg-white flex justify-center items-center">
         <img src="/src/assets/gifs/page-loader.gif" alt="Loading">
+    </div>
+    <div id="popup" class="fixed z-10 inset-0 bg-popup flex justify-center">
+        <picture id="popup-container" class="w-4/5 relative inset-0 m-auto animate-wiggle">
+            <button id="button-popup" class="absolute top-2 right-2">
+                <img src="/src/assets/icons/close-icon.png" alt="Fechar"/>
+            </button>
+            <source media="(min-width:500px)" srcset="/src/assets/images/banners/Banner_Site.png">
+            <img class="rounded-xl w-full" src="/src/assets/images/banners/Banner_Site.png" alt="" />
+        </picture>
     </div>
     <header class="h-16 flex transition-opacity">
         <nav class="px-4 w-full max-w-5xl mx-auto flex justify-between items-center xl:px-0">
@@ -103,10 +112,6 @@
     </header>
     <section>
         <div class="slider">
-            <!-- <picture>
-                <source media="(min-width:500px)" srcset="/src/assets/images/banners/Banner_Site.png">
-                <img class="w-full h-auto" src="/src/assets/images/banners/Banner_Site.png" alt="" />
-            </picture> -->
             <picture>
                 <source media="(min-width:500px)" srcset="/src/assets/images/banners/Banner_phitoss_1920x533.png">
                 <img class="w-full h-auto" src="/src/assets/images/banners/Banner_phitoss_400x420.png" alt="" />
@@ -329,6 +334,7 @@
             <p class="text-xs text-center">Copyright 2024© - Todos os Direitos Reservados</p>
         </div>
     </footer>
+    <script src="/src/js/popup.js"></script>
     <script src="/src/js/menu.js"></script>
     <script src="/src/js/dropdown.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
