@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <html lang="pt-br">
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Brasterápica Industria Farmacêutica</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="google-site-verification" content="KSoZDCeglxtIldK2S4-dTjq7JwwDEYj3w5lK1knE6fw" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="/src/assets/favicon_io/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://braste.com.br/favicon.ico">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/src/js/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="/src/js/slick/slick-theme.css" />
+    
 </head>
-
 <body class="font-body">
     <div id="pageLoader" class="fixed z-20 inset-0 bg-white flex justify-center items-center">
         <img src="/src/assets/gifs/page-loader.gif" alt="Loading">
     </div>
-    <div id="popup" class="fixed z-10 inset-0 bg-popup flex justify-center">
-        <picture id="popup-container" class="w-full relative inset-0 m-auto animate-wiggle lg:w-4/5">
-            <button id="button-popup" class="absolute top-2 right-2">
+    <div id="popup" class="fixed z-10 inset-0 bg-popup flex justify-center items-center">
+        <picture id="popup-container" class="p-4 relative inset-0 m-auto animate-wiggle lg:h-screen">
+            <button id="button-popup" class="absolute top-6 right-6">
                 <img src="/src/assets/icons/close-icon.png" alt="Fechar"/>
             </button>
-            <source media="(min-width:500px)" srcset="/src/assets/images/banners/Banner_Site.png">
-            <img class="rounded-xl w-full" src="/src/assets/images/banners/Banner_Site.png" alt="" />
+            <img class="max-h-full rounded-xl" src="/src/assets/images/banners/banner_braste_50.png" alt="" />
         </picture>
     </div>
     <header class="h-16 flex transition-opacity">
@@ -226,9 +225,9 @@
                 <div class="px-2">
                     <div class="bg-black">
                         <video 
-                            class="h-32 w-96 lg:h-44 lg:w-80"
-                            width="1920" 
-                            height="1080" 
+                            class="h-40 lg:h-44"
+                            width="1080" 
+                            height="1920" 
                             controls
                             preload="none"
                             muted
@@ -240,6 +239,24 @@
                     </div>
                     <h3 class="my-3 text-xl font-medium">Sonin</h3>
                     <p class="text-sm text-black600 pr-5">O Sonin é um suplemento alimentar fonte de melatonina, que ajuda a regular a produção do hormônio Melatonina, e melhora a qualidade do sono, promovendo noites revitalizadoras. </p>
+                </div>
+                <div class="px-2">
+                    <div class="bg-black">
+                        <video 
+                            class="h-40 lg:h-44"
+                            width="1920" 
+                            height="1080" 
+                            controls
+                            preload="none"
+                            muted
+                            poster="/src/assets/images/thumbnails/gastromag_2023.png"
+                        >
+                            <source src="/src/assets/videos/gastromag_2023.mp4" type="video/mp4">
+                                Seu navegador não suporta essa mídia.
+                        </video>
+                    </div>
+                    <h3 class="my-3 text-xl font-medium">Gastromag</h3>
+                    <p class="text-sm text-black600 pr-5">Neutraliza o ácido no esôfago e estômago, aliviando o desconforto causado pela acidez.</p>
                 </div>
                 <div class="px-2">
                     <video 
