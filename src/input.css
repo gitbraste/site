@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Open Sans';
+    }
+
+    p, a, ul, h3 {
+        font-size: 1rem;
+    }
+
+    .h-1px { 
+        height: 1px;
+    }
+    .h-500px { 
+        height: 100%;
+    }
+
+    .rotateY-0 {
+        transform: rotateY(0);
+    }
+
+    .rotateY-180 {
+        transform: rotateY(180deg);
+    }
+
+    .-rotateY-180 {
+        transform: rotateY(-180deg);
+    }
+
+    .opacity-bg {
+        background-color: rgba(0,0,0,0.4);
+    }
+
+    .w-100 {
+        width: 31rem;
+    }
+
+    .bg-popup {
+        background: rgba(0, 0, 0, 0.6);
+    }
+}
